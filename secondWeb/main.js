@@ -17,4 +17,5 @@ function guessNum() {
       break;
     }
   }
+  alert("你失败了😭")
 }
