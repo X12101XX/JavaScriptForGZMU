@@ -19,3 +19,19 @@ function guessNum() {
   }
   alert("你失败了😭")
 }
+
+function guessNumVersion2(time) {
+  if (time == 0) {
+    return;
+  }
+  let inputNumber = getNumber();
+  if (inputNumber > n) {
+    alert("你猜的大了");
+  } else if (inputNumber < n) {
+    alert("你猜的小了");
+  } else {
+    alert("恭喜🎉猜对了");
+    return;
+  }
+  guessNumVersion2(time - 1)
+}
