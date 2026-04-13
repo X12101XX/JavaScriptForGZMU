@@ -1,0 +1,13 @@
+hr {
+    border-color: lightgray;
+}
+
+
+table {
+    border-collapse: collapse;
+}
+
+td {
+    border: 1px solid #ccc;
+    padding: 5px;
+}
